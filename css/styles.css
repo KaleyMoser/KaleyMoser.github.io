@@ -19,6 +19,12 @@ header {
   position: fixed;
 }
 
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
 nav {
   float: right;
 }
