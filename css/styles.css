@@ -20,11 +20,7 @@ header {
 }
 
 nav {
-  background-color: powderblue;
-  width: 100%;
-  text-align: right;
-  position: absolute;
-  top: 100%;
+  float: right;
 }
 
 nav ul {
@@ -36,7 +32,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 50px;
-  padding-top: 25px;
+  position: relative;
 }
 
 nav a {
@@ -51,6 +47,6 @@ nav a:hover {
 }
 
 .navbar {
-width: 80%;
-margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
